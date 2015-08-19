@@ -13,8 +13,8 @@
     <h1 class="main-title">My Blog</h1>
     <div class="container-fluid">
         <div class="col-md-3">
-            <ul class="nav">
-                <li>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active">
                     <a href="#">Main</a>
                 </li>
                 <li>
@@ -77,6 +77,20 @@
                 </p>
                 <hr />
             </div>
+            
+            
+            <ul class="pagination pull-right" boundary-links="true">
+                <li class="ng-scope disabled"><a href="" class="ng-binding">First</a></li>
+                <li class="ng-scope disabled"><a href="" class="ng-binding">Previous</a></li>
+                
+                <li class="active"><a href="" class="ng-binding">1</a></li>
+                <li class=""><a href="" class="ng-binding">2</a></li>
+                <li class=""><a href="" class="ng-binding">3</a></li>
+                <li class=""><a href="" class="ng-binding">4</a></li>
+                
+                <li ><a href="">Next</a></li>
+                <li ><a href="" >Last</a></li>
+            </ul>
         </div>    
         
     </div>
