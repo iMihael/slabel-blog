@@ -1,0 +1,29 @@
+.main-title {
+    text-align: center;
+}
+.post-title {
+    font-size: 36px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.post {
+    padding-left:20px;
+}
+
+.post-subtitle {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.blog-body {
+    border-left: 1px solid #ccc;
+}
+
+.post-meta {
+  color: gray;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  font-family: Lora, 'Times New Roman', serif;
+}
